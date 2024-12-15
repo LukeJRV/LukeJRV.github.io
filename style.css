@@ -160,7 +160,7 @@ body.dark-mode, body.dark-mode button, body.dark-mode a, header.dark-mode {
 /* Animation [Starts Left > Ends Right]*/
 @keyframes scrollLeft {
     0% {
-        transform: translateX(100vw); 
+        transform: translateX(100%); 
     }
     100% {
         transform: translateX(-100%); 
