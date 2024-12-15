@@ -146,7 +146,7 @@ body.dark-mode, body.dark-mode button, body.dark-mode a, header.dark-mode {
   height: 50px; 
   background-color: #333;
   color: white; 
-  font-family: monospace;
+  font-family: 'Poppins';
   font-size: 24px;
   font-weight: 700;
   display: flex;
