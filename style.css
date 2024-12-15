@@ -11,6 +11,21 @@ body {
     color: white;
 }
 
+/* Default [Light Mode] */
+body {
+    background-color: #f4f4f9;
+    color: white;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+}
+
+a {
+    color: #0066cc;
+}
+
 /* Interactive Buttons */
 button, .btn {
     background-color: #2575fc; /* Blue background */
@@ -63,4 +78,19 @@ footer {
     padding: 10px;
     background-color: #333;
     color: white;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode button {
+    background-color: #444;
+    color: #fff;
+}
+
+body.dark-mode a {
+    color: #66aaff;
 }
