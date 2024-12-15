@@ -145,9 +145,10 @@ body.dark-mode, body.dark-mode button, body.dark-mode a, header.dark-mode {
   width: 100px; 
   height: 50px; 
   background-color: #333;
-  color: white;
+  color: white; 
+  font-family: monospace;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
