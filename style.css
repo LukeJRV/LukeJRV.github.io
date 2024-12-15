@@ -11,13 +11,6 @@ body {
     background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
 }
 
-/* Dark Mode */
-body.dark-mode 
-{
-    background-color: #121212;
-    background: none;  
-}
-
 /* Saved for future use: background-color: #f4f4f9; */
 
 button 
@@ -96,8 +89,9 @@ footer
 /* Dark Mode Style */
 body.dark-mode 
 {
-  background-color: #121212; 
-  color: #e0e0e0; 
+    background-color: #121212;
+    background: none;  
+    color: #e0e0e0;
 }
 
 body.dark-mode button 
