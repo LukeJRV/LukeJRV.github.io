@@ -12,12 +12,17 @@ body {
 }
 
 /* Default [Light Mode] */
-body {
-    background-color: #f4f4f9;
-    color: white;
+body 
+{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: white;
 }
 
-button {
+button 
+{
     background-color: #333;
     color: #fff;
 }
@@ -27,7 +32,8 @@ a {
 }
 
 /* Interactive Buttons */
-button, .btn {
+button, .btn 
+{
     background-color: #2575fc; /* Blue background */
     color: white;
     border: none;
@@ -38,59 +44,86 @@ button, .btn {
     transition: all 0.3s ease;
 }
 
-button:hover, .btn:hover {
+button:hover, .btn:hover 
+{
     background-color: #6a11cb; /* Purple on hover */
     transform: scale(1.1); /* Slight zoom effect */
 }
 
-header {
+header 
+{
     background-color: #333;
     color: white;
     padding: 1rem 0;
     text-align: center;
 }
 
-header h1 {
+header h1 
+{
     margin: 0;
 }
 
-header nav ul {
+header nav ul 
+{
     list-style-type: none;
     padding: 0;
 }
 
-header nav ul li {
+header nav ul li 
+{
     display: inline;
     margin: 0 10px;
 }
 
-header nav ul li a {
+header nav ul li a 
+{
     color: white;
     text-decoration: none;
 }
 
-section {
+section 
+{
     padding: 20px;
 }
 
-footer {
+footer 
+{
     text-align: center;
     padding: 10px;
     background-color: #333;
     color: white;
 }
 
+/* Dark Mode Style */
+body.dark-mode 
+{
+  background-color: #121212; 
+  color: #e0e0e0; 
+}
+
 /* Dark Mode */
-body.dark-mode {
+body.dark-mode 
+{
     background-color: #121212;
     color: #e0e0e0;
 }
 
-body.dark-mode button {
-    background-color: #444;
-    color: #fff;
+body.dark-mode button 
+{
+  background-color: #6C757D;
+  color: white;
+}
+
+button.dark-mode:hover {
+  background-color: #5a6268;
 }
 
 body.dark-mode a {
     color: #66aaff;
+}
+header.dark-mode 
+{
+background-color: #333;
+color: white;
+}
 }
