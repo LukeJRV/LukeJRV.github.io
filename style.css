@@ -137,6 +137,7 @@ color: white;
     font-family: "Courier New", Courier, monospace;
     font-size: 18px;
     font-weight: bold;
+    width: 100%;
     color: #f4f4f9;
 }
 
@@ -149,7 +150,7 @@ color: white;
 /* Animation [Starts Left > Ends Right]*/
 @keyframes scrollLeft {
     0% {
-        transform: translateX(100%); 
+        transform: translateX(100vw); 
     }
     100% {
         transform: translateX(-100%); 
