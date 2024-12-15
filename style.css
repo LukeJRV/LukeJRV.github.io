@@ -2,14 +2,23 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
-
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
     color: white;
 }
+
+/* Light Mode */
+body {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+}
+
+/* Dark Mode */
+body.dark-mode 
+{
+    background-color: #121212;
+    background: none;  
+}
+
+/* Saved for future use: background-color: #f4f4f9; */
 
 button 
 {
@@ -97,13 +106,16 @@ body.dark-mode button
   color: white;
 }
 
-button.dark-mode:hover {
+body.dark-mode button:hover 
+{
   background-color: #5a6268;
 }
 
-body.dark-mode a {
+body.dark-mode a 
+{
     color: #66aaff;
 }
+
 header.dark-mode 
 {
 background-color: #333;
