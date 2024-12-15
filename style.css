@@ -11,16 +11,6 @@ body {
     color: white;
 }
 
-/* Default [Light Mode] */
-body 
-{
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
-  color: white;
-}
-
 button 
 {
     background-color: #333;
