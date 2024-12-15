@@ -96,13 +96,13 @@ body.dark-mode
 
 body.dark-mode button 
 {
-  background-color: #6C757D;
+  background-color: #007BFF;
   color: white;
 }
 
 body.dark-mode button:hover 
 {
-  background-color: #5a6268;
+  background-color: #0056b3;
 }
 
 body.dark-mode a 
@@ -110,12 +110,22 @@ body.dark-mode a
     color: #66aaff;
 }
 
+body.dark-mode a:hover 
+{
+    color: #3399ff; 
+}
+
 header.dark-mode 
 {
-background-color: #333;
+background-color: #222;
 color: white;
 }
 
+/* Shadow Text Effect */
+body.dark-mode, body.dark-mode button, body.dark-mode a, header.dark-mode {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); 
+}
+    
 /* Terminal Banner */
 .terminal-banner 
 {
