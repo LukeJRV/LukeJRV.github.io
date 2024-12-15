@@ -135,14 +135,16 @@ body.dark-mode, body.dark-mode button, body.dark-mode a, header.dark-mode {
 
 #clock 
 {
-  width: 200px; 
-  height: 100px; 
+  width: 150px; 
+  height: 70px; 
   background-color: #333;
   color: white;
-  font-size: 30px;
+  font-size: 24px;
+  font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   border-radius: 8px;
 }
     
