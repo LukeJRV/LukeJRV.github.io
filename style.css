@@ -133,7 +133,14 @@ body.dark-mode, body.dark-mode button, body.dark-mode a, header.dark-mode {
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); 
 }
 
-#clock 
+.clock-container {
+  display: flex;
+  justify-content: center;  
+  align-items: center;     
+  height: 100%;            
+}
+
+.clock 
 {
   width: 100px; 
   height: 50px; 
@@ -147,6 +154,7 @@ body.dark-mode, body.dark-mode button, body.dark-mode a, header.dark-mode {
   border-radius: 8px;
   max-width: 120px;
   padding: 10px;
+  text-align: center;
   box-sizing: border-box; 
 }
     
