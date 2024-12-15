@@ -12,5 +12,4 @@ function toggleDarkMode()
 }
 
 toggleButton.addEventListener("click", toggleDarkMode);
-};
 
