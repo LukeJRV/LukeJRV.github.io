@@ -11,6 +11,23 @@ body {
     color: white;
 }
 
+/* Interactive Buttons */
+button, .btn {
+    background-color: #2575fc; /* Blue background */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+button:hover, .btn:hover {
+    background-color: #6a11cb; /* Purple on hover */
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
 header {
     background-color: #333;
     color: white;
