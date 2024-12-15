@@ -8,11 +8,6 @@ body {
     color: white;
 }
 
-/* Light Mode */
-body {
-    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
-}
-
 /* Saved for future use: background-color: #f4f4f9; */
 
 button 
