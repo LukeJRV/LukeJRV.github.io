@@ -132,6 +132,19 @@ color: white;
 body.dark-mode, body.dark-mode button, body.dark-mode a, header.dark-mode {
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); 
 }
+
+#clock 
+{
+  width: 200px; 
+  height: 100px; 
+  background-color: #333;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
     
 /* Terminal Banner */
 .terminal-banner 
