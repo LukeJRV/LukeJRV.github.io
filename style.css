@@ -144,8 +144,10 @@ body.dark-mode, body.dark-mode button, body.dark-mode a, header.dark-mode {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
   border-radius: 8px;
+  max-width: 150px;
+  padding: 10px;
+  box-sizing: border-box; 
 }
     
 /* Terminal Banner */
