@@ -153,7 +153,7 @@ body.dark-mode, body.dark-mode button, body.dark-mode a, header.dark-mode {
   justify-content: center;
   border-radius: 8px;
   max-width: 120px;
-  padding: 10px;
+  padding: 0px;
   text-align: center;
   box-sizing: border-box; 
 }
