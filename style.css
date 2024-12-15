@@ -121,3 +121,43 @@ header.dark-mode
 background-color: #333;
 color: white;
 }
+
+/* Terminal Banner */
+.terminal-banner 
+{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #2d2d2d;
+    border-bottom: 2px solid #333;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Terminal Line */
+.terminal-line 
+{
+    white-space: nowrap; 
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f4f4f9;
+}
+
+/* Smooth Scrolling Text */
+#scrollingText {
+    position: absolute;
+    animation: scrollLeft 10s linear infinite; 
+}
+
+/* Animation [Starts Left > Ends Right]*/
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(100%); 
+    }
+    100% {
+        transform: translateX(-100%); 
+    }
+}
