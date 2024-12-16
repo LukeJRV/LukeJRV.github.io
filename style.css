@@ -9,6 +9,60 @@ body {
 }
 
 /* Saved for future use: background-color: #f4f4f9; */
+   font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Placeholder for Skills */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.skills {
+    padding: 20px;
+    text-align: center;
+}
+
+.skill-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar {
+    background-color: #ddd;
+    height: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.bar {
+    background-color: #4CAF50;
+    height: 100%;
+    border-radius: 5px;
+}
 
 button 
 {
