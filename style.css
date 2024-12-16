@@ -9,9 +9,6 @@ body {
 }
 
 /* Saved for future use: background-color: #f4f4f9; */
-   font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
 /* Placeholder for Skills */
@@ -49,11 +46,10 @@ nav ul li a {
     margin: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
+}
   
 .skill-card h3, .skill-card p {
     color: white; 
-}
 
 .progress-bar {
     background-color: #555;
