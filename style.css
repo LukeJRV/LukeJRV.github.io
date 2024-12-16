@@ -21,12 +21,38 @@ img
 }
 
 /* Placeholder for Skills */
-nav 
+.navbar 
 {
+    width: 100%; 
+    max-width: none;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
     background-color: #333;
-    padding: 10px;
+    padding: 15px 30px;
 }
 
+.navbar ul 
+{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li 
+{
+    margin: 0 15px;
+}
+
+.navbar ul li a 
+{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* (May Need To Use These Later)
 nav ul 
 {
     list-style-type: none;
@@ -47,16 +73,99 @@ nav ul li a
     text-decoration: none;
     font-size: 18px;
 }
+*/
 
-.navbar 
+header 
 {
-    width: 100%; 
-    max-width: none;
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
+    width: 100%;
+    padding: 40px 20px;
+    text-align: center;
     background-color: #333;
-    padding: 10px 20px;
+    color: white;
+    box-sizing: border-box;
+}
+
+header h1 
+{
+    font-size: 4rem;
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+header h2 
+{
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 10px;
+    color: #cccccc;
+}
+
+/* Terminal Banner */
+.terminal-banner 
+{
+    width: 90%;
+    max-width: 1200px;
+    background-color: #2d2d2d;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    /* Saved: 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: #2d2d2d;
+    border-bottom: 2px solid #333;
+    border-radius: 10px;
+    margin: 0 auto;
+    overflow: hidden;
+    align-items: center;
+    box-sizing: border-box;
+    */
+}
+
+.terminal-banner h3 
+{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #f4f4f9;
+    margin: 0;
+}
+
+.rectangle 
+{
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.rectangle h1 
+{
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.rectangle h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #cccccc;
 }
 
 .skills 
@@ -124,14 +233,7 @@ button:hover, .btn:hover
     transform: scale(1.1); /* Slight zoom effect */
 }
 
-header 
-{
-    background-color: #333;
-    color: white;
-    padding: 1rem 0;
-    text-align: center;
-}
-
+/* Saved For Later Use
 header h1 
 {
     width: 100%;
@@ -146,6 +248,7 @@ header h1
     transition: color 0.3s ease;
     margin: 0;
 }
+*/
 
 header h1:hover 
 {
@@ -181,6 +284,46 @@ footer
     padding: 10px;
     background-color: #333;
     color: white;
+}
+
+@media (min-width: 768px) {
+    header h1 {
+        font-size: 5rem;
+    }
+
+    header h2 {
+        font-size: 2rem;
+    }
+
+    .rectangle h1 {
+        font-size: 4rem;
+    }
+
+    .rectangle h2 {
+        font-size: 2rem;
+    }
+
+    .terminal-banner {
+        padding: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    header h1 {
+        font-size: 6rem;
+    }
+
+    header h2 {
+        font-size: 2.5rem;
+    }
+
+    .rectangle h1 {
+        font-size: 5rem;
+    }
+
+    .rectangle h2 {
+        font-size: 2.5rem;
+    }
 }
 
 /* Dark Mode Style */
@@ -250,35 +393,15 @@ body.dark-mode, body.dark-mode button, body.dark-mode a, header.dark-mode
   text-align: center;
   box-sizing: border-box; 
 }
-    
-/* Terminal Banner */
-.terminal-banner 
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 100%;
-    maxwidth: 100%;
-    height: auto;
-    padding: 10x;
-    background-color: #2d2d2d;
-    border-bottom: 2px solid #333;
-    border-radius: 10x;
-    margin: 0 auto;
-    overflow: hidden;
-    align-items: center;
-    boxsizing: border-box;
-}
 
 /* Terminal Line */
 .terminal-line 
 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    font-weight: bold;
     position: absolute;
     white-space: nowrap; 
-    font-family: "Courier New", Courier, monospace;
-    font-size: 18px;
-    font-weight: bold;
     width: 100%;
     color: #f4f4f9;
 }
