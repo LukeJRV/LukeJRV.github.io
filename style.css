@@ -14,6 +14,16 @@ body {
 }
 
 /* Profile Card CSS */
+
+.portfolio-container 
+{
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;          
+  gap: 20px;               
+}
+
 .portfolio-card 
 {
   position: relative;
