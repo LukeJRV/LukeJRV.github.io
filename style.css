@@ -241,7 +241,7 @@ body.portfolio-page
   transform: translateY(0);
 }
 
-img 
+.img 
 {
     max-width: 100%;
     height: auto;
@@ -252,7 +252,7 @@ img
 .navbar 
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     list-style: none;
     width: 100%; 
