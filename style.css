@@ -23,8 +23,7 @@ body {
 }
 
 .card-container {
-  perspective: 1000px; /* Adds depth for a subtle 3D effect */
-}
+  perspective: 1000px; 
 
 .card {
   position: relative;
@@ -38,7 +37,7 @@ body {
 }
 
 .card:hover {
-  transform: scale(1.05); /* Slight zoom effect */
+  transform: scale(1.05); 
 }
 
 .card-image {
