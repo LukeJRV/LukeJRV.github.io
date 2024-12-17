@@ -16,25 +16,24 @@ body {
 /* Profile Card CSS */
 .portfolio-card 
 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
   background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s;
   padding: 20px;
-  max-width: 350px;
-  margin: 20px auto; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .portfolio-card img {
+  position: absolute;
   width: 100%;
-  height: auto;
-  border-radius: 50%;
-  margin-bottom: 15px;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s;
 }
 
 .portfolio-card .info 
@@ -66,9 +65,8 @@ body {
 
 .portfolio-card p 
 {
-  font-size: 1rem;
-  color: #444;
-  line-height: 1.5;
+  margin-top: 130px;
+  opacity: 0;
 }
 
 .portfolio-card:hover 
