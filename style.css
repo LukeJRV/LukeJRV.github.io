@@ -104,8 +104,6 @@ to {
   top: 30px;
   height: 50px;
   color: black;
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 body.portfolio-page 
