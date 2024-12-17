@@ -98,6 +98,7 @@ to {
     }
 }
 
+.portfolio-card:hover .info
 {
   left: 50%;
   top: 30px;
