@@ -525,6 +525,13 @@ footer
   }
 }
 
+@media (max-width: 768px) {
+  .portfolio-card {
+    max-width: 90%; /* Reduce card size for smaller devices */
+    margin: 15px auto;
+  }
+}
+
 /* Dark Mode Style */
 body.dark-mode 
 {
