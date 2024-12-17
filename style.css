@@ -13,11 +13,21 @@ body {
     color: white;
 }
 
-.card-container {
+body.portfolio-page 
+{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Same as your existing body */
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+.card-container 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
 }
 
 .card {
