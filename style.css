@@ -251,19 +251,22 @@ img
 /* Placeholder for Skills */
 .navbar 
 {
-    width: 100%; 
-    max-width: none;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
+    list-style: none;
+    width: 100%; 
+    max-width: none; 
     background-color: #333;
-    padding: 15px 30px;
+    padding: 10px 0px;
+    position: relative;
 }
 
 .navbar ul 
 {
     display: flex;
     list-style: none;
+    gap: 20px;
     padding: 0;
     margin: 0;
 }
@@ -280,28 +283,10 @@ img
     font-size: 18px;
 }
 
-/* (May Need To Use These Later)
-nav ul 
+.navbar a:hover 
 {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
+  color: #555; 
 }
-
-nav ul li 
-{
-    margin-right: 20px;
-}
-
-nav ul li a 
-{
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-*/
 
 header 
 {
