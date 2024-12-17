@@ -13,6 +13,7 @@ body {
     color: white;
 }
 
+
 body.portfolio-page 
 {
   display: flex;
@@ -22,6 +23,27 @@ body.portfolio-page
   margin: 0;
   background-color: #f0f0f0;
 }
+
+.projects-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.project-card 
+{
+  position: relative;
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
 .card-container 
 {
   display: flex;
@@ -30,7 +52,8 @@ body.portfolio-page
   height: 100vh; 
 }
 
-.card {
+.card 
+{
   position: relative;
   width: 200px;
   height: 300px;
