@@ -13,6 +13,62 @@ body {
     color: white;
 }
 
+/* Profile Card CSS */
+.portfolio-card 
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 350px;
+  margin: 20px auto; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.portfolio-card .info 
+{
+  margin-bottom: 10px;
+}
+
+.portfolio-card .info .name 
+{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  display: block;
+}
+
+.portfolio-card .info .role 
+{
+  font-size: 1rem;
+  color: #666;
+}
+
+.portfolio-card p 
+{
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.5;
+}
+
+.portfolio-card:hover 
+{
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
 
 body.portfolio-page 
 {
