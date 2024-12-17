@@ -24,6 +24,14 @@ body.portfolio-page
   background-color: #f0f0f0;
 }
 
+.projects-container 
+{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; 
+  padding: 20px;
+}
+
 .project-card 
 {
   background-color: #fff;
