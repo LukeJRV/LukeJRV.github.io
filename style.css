@@ -328,6 +328,7 @@ header h2
     justify-content: center;
     align-items: center;
     text-align: center;
+    height: auto;
 }
 
 .terminal-banner h3 
@@ -339,6 +340,7 @@ header h2
     display: inline-block;
     color: #f4f4f9;
     margin: 0;
+    padding: 0;
 }
 
 .rectangle 
