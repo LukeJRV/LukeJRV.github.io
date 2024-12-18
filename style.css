@@ -493,6 +493,24 @@ footer
     color: white;
 }
 
+@media (max-width: 1200px) {
+    .skill-card {
+        flex: 0 0 23%;  
+    }
+}
+
+@media (max-width: 768px) {
+    .skill-card {
+        flex: 0 0 48%;  
+    }
+}
+
+@media (max-width: 480px) {
+    .skill-card {
+        flex: 0 0 98%;  
+    }
+}
+
 @media (min-width: 768px) {
     header h1 {
         font-size: 5rem;
