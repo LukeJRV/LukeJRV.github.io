@@ -1,1 +1,83 @@
+🐞 𝐋𝐀𝐓𝐄𝐒𝐓 𝐕𝐄𝐑𝐒𝐈𝐎𝐍: [v0.5.0] 
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+# Changelog
+All notable changes to this project will be documented in this file.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+# [v0.5.0] 🐜 - 19/12/2024
+
+## Added:
+
+## Fixes:
+
+## Changes:
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+# [v0.4.0] 🐜 - 17-12-2024
+
+## Added:
+- Added "projects.html" file to the repository.
+
+## Fixes:
+- Minor bug fixes
+
+## Changes:
+- Minor adjustments to "skils.html"
+- Minor adjustments to "style.css"
+- Minor adjustments to "projects.html"
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+# [v0.3.0] 🐜 - 16-12-2024
+
+## Fixed:
+
+[Style.CSS Bug Fixes:] 🐛
+- Commented out old code due to conflicts
+- Adjusted several font sizes
+- Adjusted structure of the overall code elements
+- Changes to .navbar 
+- Removed "nav" 
+- Fixed a few minor errors from the previous changes made
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# [v0.2.0] 🌻 - 15-12-2024
+
+## Added:
+- Added a "style.css" file to the repository.
+- Added a "aboutme.html" file to the repository.
+- Added a "script.js" file to the repository.
+- Added a "skills.html" file to the repository.
+- Added "Dark Mode" & "Light Mode" functionality.
+- Added <script> tag to aboutme.html (HTML / CSS)
+- Implemented Terminal Banner (CSS) 
+- Added Animation / Scrolling Text to the Terminal Banner. (Learned via Documentation)
+- Implemented Clock <script> with adjustments to the Clock (CSS)
+- Added Cards to the Skills Page (Foundation)
+
+## Fixed: 
+- Fixed a bug where the button's functionality was incorrect.
+- Several minor bug fixes
+
+## Changed:
+- Changed "about.html" to "aboutme.html" (Redirection)
+- Consistency-focused Changes (HTML)
+- Minor adjustments to "style.css"
+- Minor changes made to the Dark Mode Button.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# [v0.1.0] 🐜 - 14-12-2024
+
+### Added:
+- Added a "index.html" file to the repository.
+
+### Changed:
+- Minor changes to the overall layout.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
