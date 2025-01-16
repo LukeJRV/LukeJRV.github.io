@@ -616,7 +616,7 @@ body.dark-mode, body.dark-mode button, body.dark-mode a, header.dark-mode
   font-family: 'Poppins';
   font-size: 24px;
   font-weight: 700;
-  display: flex;
+  display: contents;
   align-items: center;
   justify-content: center;
   border-radius: 8px;
