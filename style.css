@@ -382,6 +382,7 @@ header h2
 .skills 
 {
     padding: 20px;
+    min-height: auto;
     text-align: center;
 }
 
