@@ -416,6 +416,13 @@ header h2
     border-radius: 5px;
 }
 
+.bar-low
+{
+ background-color: #edbd39;
+ height: 100%;
+ border-radius: 5px;
+}
+
 button 
 {
     background-color: #333;
