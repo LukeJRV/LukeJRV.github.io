@@ -610,7 +610,7 @@ body.dark-mode, body.dark-mode button, body.dark-mode a, header.dark-mode
 .clock 
 {
   width: 100px; 
-  height: 50px; 
+  height: 0px; 
   background-color: #333;
   color: white; 
   font-family: 'Poppins';
