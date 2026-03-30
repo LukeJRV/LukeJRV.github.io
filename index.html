@@ -5,24 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Luke Vizor - Full-Stack Software Developer specialising in React, Node.js and Web3.">
+    <meta name="description" content="Luke Vizor - Full-Stack Developer specialising in React, Node.js and Web3.">
     <title>Luke Vizor - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap">
     <link rel="stylesheet" href="style.css">
 </head>
     
 <body>
-    <header>
-        <h1>Luke Vizor</h1>
-        <p>Software Developer</p>
-        <nav class="navbar">
-            <ul>
-                <li><a href="aboutme.html">About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+    <div class="bg-wrapper">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
 
+    <nav class="glass-nav">
+    <div class="nav-logo">LV</div>
+    <ul class="nav-links">
+        <li><a href="#hero">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="cv.pdf" class="nav-cta" download>Download CV</a>
+</nav>
         <!-- Terminal Banner -->
         <div class="terminal-banner">
     <div class="terminal-line">
@@ -48,18 +53,19 @@
     </header>
    <section id="hero">
     <div class="hero-content">
-        <div class="hero-tag">
-            <span class="hero-tag-dot"></span>
+        <div class="hero-badge">
+            <span class="badge-dot"></span>
             Open to opportunities
         </div>
         <h1 class="hero-name">Hi, I'm <span>Luke Vizor</span></h1>
         <h2 class="hero-role">Full-Stack Developer</h2>
         <p class="hero-bio">
-            I build clean, functional web applications with a focus on user experience.
-            Passionate about React, Node.js, and exploring blockchain development with Solidity.
+            I build clean, functional web applications with a focus on
+            user experience. Passionate about React, Node.js, and
+            exploring blockchain development with Solidity.
         </p>
         <div class="hero-btns">
-            <a href="#projects" class="btn-primary">View my projects</a>
+            <a href="#projects" class="btn-primary">View projects</a>
             <a href="#contact" class="btn-secondary">Get in touch</a>
         </div>
         <div class="hero-stats">
@@ -69,7 +75,7 @@
             </div>
             <div class="stat">
                 <span class="stat-num">3+</span>
-                <span class="stat-label">Projects shipped</span>
+                <span class="stat-label">Projects</span>
             </div>
             <div class="stat">
                 <span class="stat-num">2+</span>
@@ -80,37 +86,152 @@
     <div class="hero-avatar">LV</div>
 </section>
     <section id="projects">
-        <h2>Projects</h2>
-        <p>Here are some of the projects I’ve worked on:</p>
-        <!-- Project Links -->
-    </section>
+    <p class="section-eyebrow">What I've built</p>
+    <h2 class="section-heading">Featured projects</h2>
+    <div class="projects-grid">
+
+        <div class="project-card">
+            <div class="project-card-top">
+                <div class="project-icon">&#128187;</div>
+                <a href="#" class="project-arrow">&#8599;</a>
+            </div>
+            <h3 class="project-name">Project name here</h3>
+            <p class="project-desc">
+                A short description of what it does and the
+                problem it solves for users.
+            </p>
+            <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">MongoDB</span>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-card-top">
+                <div class="project-icon">&#128279;</div>
+                <a href="#" class="project-arrow">&#8599;</a>
+            </div>
+            <h3 class="project-name">Project name here</h3>
+            <p class="project-desc">
+                A short description of what it does and the
+                problem it solves for users.
+            </p>
+            <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Solidity</span>
+            </div>
+        </div>
+
+    </div>
+</section>
     <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML, CSS, JavaScript, Python</li>
-            <li>React, Node.js, Solidity</li>
-            <li>Git, GitHub</li>
-            <!-- Skills [Add More Later] -->
-        </ul>
-    </section>
-    <section id="contact">
+    <p class="section-eyebrow">What I work with</p>
+    <h2 class="section-heading">Skills & technologies</h2>
+    <div class="skills-grid">
+
+        <div class="skill-card">
+            <div class="skill-top">
+                <span class="skill-name">HTML & CSS</span>
+                <span class="skill-level">Advanced</span>
+            </div>
+            <div class="skill-track">
+                <div class="skill-fill" style="width: 90%"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-top">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-level">Advanced</span>
+            </div>
+            <div class="skill-track">
+                <div class="skill-fill" style="width: 85%"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-top">
+                <span class="skill-name">React</span>
+                <span class="skill-level">Proficient</span>
+            </div>
+            <div class="skill-track">
+                <div class="skill-fill" style="width: 75%"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-top">
+                <span class="skill-name">Node.js</span>
+                <span class="skill-level">Intermediate</span>
+            </div>
+            <div class="skill-track">
+                <div class="skill-fill" style="width: 65%"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-top">
+                <span class="skill-name">Python</span>
+                <span class="skill-level">Proficient</span>
+            </div>
+            <div class="skill-track">
+                <div class="skill-fill" style="width: 70%"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-top">
+                <span class="skill-name">Git & GitHub</span>
+                <span class="skill-level">Advanced</span>
+            </div>
+            <div class="skill-track">
+                <div class="skill-fill" style="width: 80%"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-top">
+                <span class="skill-name">Solidity</span>
+                <span class="skill-level">Learning</span>
+            </div>
+            <div class="skill-track">
+                <div class="skill-fill" style="width: 45%"></div>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-top">
+                <span class="skill-name">SQL</span>
+                <span class="skill-level">Intermediate</span>
+            </div>
+            <div class="skill-track">
+                <div class="skill-fill" style="width: 55%"></div>
+            </div>
+        </div>
+    </div>
+</section>
+   <section id="contact">
     <div class="contact-strip">
         <div class="contact-text">
             <h2>Available for work — let's talk</h2>
             <p>LukeJRVizor@protonmail.com</p>
         </div>
-        <a href="mailto:LukeJRVizor@protonmail.com" class="contact-btn">Send a message &#8599;</a>
+        <a href="mailto:LukeJRVizor@protonmail.com" class="contact-btn">
+            Send a message &#8599;
+        </a>
     </div>
 </section>
 
 <footer>
     <p class="footer-copy">&copy; 2026 Luke Vizor</p>
     <div class="footer-links">
-        <a href="https://github.com/LukeJRV" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/luke-vizor/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/YOUR_USERNAME" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/YOUR_USERNAME" target="_blank">LinkedIn</a>
     </div>
     <button id="darkModeToggle">Toggle dark mode</button>
 </footer>
-    <script src="script.js"></script>
+     <script src="script.js"></script>
+</div>
 </body>
 </html>
