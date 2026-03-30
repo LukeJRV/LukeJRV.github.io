@@ -330,7 +330,15 @@ body.dark-mode .hero-avatar {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;  /* add this */
 }
+
+.terminal-line {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 
 .clock {
     font-size: 13px;
