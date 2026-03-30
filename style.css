@@ -27,6 +27,9 @@ body {
 }
 
 .orb-1 {
+    position: absolute;
+    border-radius: 50%;
+    pointer-events: none;
     width: 500px;
     height: 500px;
     top: -120px;
