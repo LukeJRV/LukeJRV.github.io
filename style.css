@@ -631,6 +631,16 @@ body.dark-mode #darkModeToggle {
     border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+body.dark-mode .bg-wrapper {
+  background: linear-gradient(
+    135deg,
+    #0f0a1e 0%,
+    #1a0a3a 30%,
+    #0a1628 60%,
+    #070e1a 100%
+  );
+}
+
 /* ======= RESPONSIVE ======= */
 @media (max-width: 768px) {
     .glass-nav {
